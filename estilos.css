@@ -1,0 +1,278 @@
+                @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+                * {
+                    /* outline: 3px solid red; */
+                }
+                
+                body {
+                    font-family: 'Lato', sans-serif;
+                }
+                
+                .container {
+                    width: 90%;
+                    max-width: 1200px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    padding: 80px 0;
+                }
+                /* estilos del header */
+                
+                .hero {
+                    height: 100vh;
+                    background-image: linear-gradient(to top, #f77063 0%, #fe5196 100%);
+                }
+                
+                .hero__main {
+                    padding-top: 0;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap-reverse;
+                }
+                
+                .hero__img {
+                    width: 45%;
+                    text-align: center;
+                }
+                
+                .hero__picture {
+                    max-width: 80%;
+                }
+                
+                .hero__text {
+                    width: 45%;
+                    color: #fff;
+                }
+                
+                .hero__title {
+                    font-size: 4rem;
+                    font-weight: 300;
+                }
+                
+                .hero__copy {
+                    font-size: 1.5rem;
+                }
+                
+                .menu {
+                    text-decoration: none;
+                    color: #fff;
+                    padding-right: 15px;
+                    padding-top: 25px;
+                }
+                /* section about */
+                
+                .title {
+                    font-size: 2.5rem;
+                    margin: 0;
+                    margin-bottom: 40px;
+                    color: #f77062;
+                    text-align: left;
+                }
+                
+                .about {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                
+                .about__img {
+                    width: 45%;
+                    text-align: center;
+                    margin: 0;
+                }
+                
+                .about__picture {
+                    max-width: 80%;
+                }
+                
+                .about__text {
+                    width: 50%;
+                    text-align: justify;
+                }
+                
+                .about__parrafo {
+                    line-height: 1.5;
+                }
+                
+                .about__cta {
+                    display: inline-block;
+                    margin-top: 20px;
+                    background: #f77062;
+                    color: #fff;
+                    padding: 20px 40px;
+                    border-radius: 30px;
+                    text-decoration: none;
+                }
+                /* section galeria */
+                
+                .title {
+                    text-align: center;
+                    font-weight: 700;
+                }
+                
+                .galeria {
+                    background: rgb(224, 229, 252);
+                }
+                
+                .tarjetas {
+                    display: flex;
+                    padding: 40px 0;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                }
+                
+                .galeria__ofertas {
+                    width: 250px;
+                    background: #fff;
+                    height: auto;
+                    border-radius: 10px;
+                }
+                
+                .galeria__picture {
+                    width: 100%;
+                    height: 200px;
+                    display: block;
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                }
+                
+                .galeria__text {
+                    padding: 30px 20px 40px 20px;
+                }
+                
+                .galeria__title {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    margin: 0;
+                    color: rgb(7, 194, 194);
+                }
+                
+                .galeria__parrafo {
+                    font-weight: 300;
+                    margin: 30px 0;
+                }
+                
+                .galeria__cta {
+                    display: block;
+                    background: rgb(7, 194, 194);
+                    padding: 15px 0;
+                    text-align: center;
+                    border-radius: 30px;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+                /* section copy */
+                
+                .copy {
+                    background: #f77062;
+                    color: white;
+                }
+                
+                .title--margin {
+                    color: white;
+                    margin: 0;
+                    text-align: center;
+                }
+                
+                .contenedor__imagenes {
+                    padding: 20px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                
+                .fotos {
+                    width: 30%;
+                    height: 250px;
+                    margin-bottom: 20px;
+                    display: block;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+                }
+                
+                .title__imagenes {
+                    font-size: 2.5rem;
+                    text-align: center;
+                    margin: 0;
+                    padding: 30px 20px 40px 20px;
+                    color: #f77062;
+                }
+                
+                .lenguages {
+                    background: rgb(224, 229, 252);
+                }
+                
+                .lenguages__contenedor {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                }
+                
+                .lenguages__imagen {
+                    width: 20%;
+                    height: 100px;
+                }
+                /* section footer */
+                
+                .footer {
+                    background: #f77062;
+                    color: white;
+                    text-align: center
+                }
+                
+                footer h2.title {
+                    color: #fff;
+                }
+                
+                .footer__container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .footer__text {
+                    width: 50%;
+                }
+                
+                .footer__icons {
+                    font-size: 2rem;
+                    margin: 0 30px;
+                    display: inline-block;
+                    margin-bottom: 30px;
+                }
+                
+                .fa-brands {
+                    font-size: 2rem;
+                    text-decoration: none;
+                    color: #fff;
+                    line-height: 80px;
+                    height: 30px;
+                    margin: 15px;
+                }
+                
+                .fa-brands:hover {
+                    color: blue;
+                }
+                
+                .footer__link {
+                    display: inline-block;
+                    color: #fff;
+                    margin: 0 20px;
+                    margin-bottom: 15px;
+                    text-decoration: none;
+                }
+                
+                .footer__link:hover {
+                    color: blue;
+                }
+                
+                .footer__img {
+                    margin: 10;
+                    width: 35%;
+                }
+                
+                .footer__picture {
+                    width: 90%;
+                }
